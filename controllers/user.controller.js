@@ -13,7 +13,6 @@ const Register = async (req, res) => {
         }
 
 
-        const photoPath = req.file?.path || null;
         const salt = await bcrypt.genSalt(10);
         const hashedPw = await bcrypt.hash(password, salt);
 
@@ -25,7 +24,6 @@ const Register = async (req, res) => {
             email,
             phone,
             address,
-            photo: photoPath,
             password: hashedPw,
             role,
         });
