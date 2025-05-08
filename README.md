@@ -43,9 +43,6 @@ The Ticket Management System is a RESTful API that allows users to create, manag
    ```bash
    PORT=3000
    MONGODB_URI=mongodb://localhost:27017/tickets
-   CLOUDINARY_CLOUD_NAME=yourcredential
-    CLOUDINARY_API_KEY=yourcredential
-    CLOUDINARY_API_SECRET=yourcredential
    JWT_SECRET=your_jwt_secret
    ```
 
