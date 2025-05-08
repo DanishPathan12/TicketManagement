@@ -49,9 +49,8 @@ The Ticket Management System is a RESTful API that allows users to create, manag
 4. Start the server:
 
    ```bash
-   npm start
-   ```
-
+   npm run dev
+   
 
    ```
    ```
