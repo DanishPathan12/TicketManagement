@@ -22,7 +22,7 @@ mongoose.connect(mongo, {
 
 app.use(
     cors({
-        origin: process.env.FRONTENDBASEURL,
+        origin: '*',
         credentials: true, // Allow cookies, authentication headers
         methods: "GET,POST,PUT,DELETE", // Allowed request methods
     })
