@@ -41,9 +41,9 @@ The Ticket Management System is a RESTful API that allows users to create, manag
 3. Set up environment variables in `.env`:
 
    ```bash
-   PORT=3000
-   MONGODB_URI=mongodb://localhost:27017/tickets
-   JWT_SECRET=your_jwt_secret
+   JWT_SECRET=chintapakfsjkjdf
+   NODE_ENV=production
+   MONGO=mongodb://localhost:27017/ticketmangementsystem
    ```
 
 4. Start the server:
